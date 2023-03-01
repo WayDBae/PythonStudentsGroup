@@ -1,0 +1,14 @@
+def calculator():
+    a = int(input("Введите первое число: "))
+    b = int(input("Введите второе число: "))
+    operator = str(input("Введите операцию над двумя числами(+,-,*,/): "))
+    if operator == "+": 
+        print(a+b)
+    if operator == "-":
+        print(a-b)
+    if operator == "/":
+        print(a/b)
+    if operator == "*":
+        print(a*b)
+
+calculator()
